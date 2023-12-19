@@ -9,6 +9,7 @@
     "jsxBracketSameLine": false,
     "arrowParens": "avoid",
     "proseWrap": "always",
-    "bracketSameLine": true
+    "bracketSameLine": true,
+    "liveServer.settings.port": 0
   }
   
