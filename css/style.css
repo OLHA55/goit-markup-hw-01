@@ -90,6 +90,7 @@ img {
 }
 
 .container {
+  display: flex;
 }
 .hero-cotainer {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -275,7 +276,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 15px;
-}
+ 
 
 .portfolio-item {
   display: flex;
