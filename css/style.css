@@ -63,15 +63,17 @@ img {
 .header-nav-list {
   display: flex;
   gap: 40px;
+  color: ;
 }
 .header-nav-item {
-  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
 }
+
 .header-address {
   display: flex;
   padding-right: 15px;
@@ -276,7 +278,8 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 15px;
- 
+  margin-bottom: 120px;
+}
 
 .portfolio-item {
   display: flex;
@@ -317,16 +320,12 @@ img {
   align-self: stretch;
 }
 .footer-cotainer {
+  background: var(--NAVY-BLUE, #2e2f42);
   width: 1188px;
   height: 312px;
   flex-shrink: 0;
-  background: var(--NAVY-BLUE, #2e2f42);
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 101.5px;
-  margin-top: 120px;
-
-  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-logo {
@@ -340,6 +339,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   padding-left: 15px;
+  padding-bottom: 17px;
 }
 .header-nav-logo-light {
   color: #f4f4fd;
