@@ -28,23 +28,20 @@ img {
 .container {
   background: #fff;
   max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  margin: 0;
 }
 .header-cotainer {
   width: 1158px;
   display: flex;
-  margin: 0;
+  margin: 0 15px;
   align-items: center;
-  padding: 24px 0;
-  padding: 0 15px 0 15px;
+  padding: 0;
+
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
 }
 .header-cotainer-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -115,7 +112,7 @@ img {
   width: 1158px;
   min-height: 600px;
   text-align: center;
-  margin: 0 15px;
+  margin-left: 15px;
 }
 .hero-title {
   display: block;
